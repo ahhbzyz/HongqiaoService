@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.balysv\material-ripple\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="aba9317bc403d69d8a571c0a72acfe95698a5db0">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-779f3b1fdac7883f080b1b9ec080676d3125a676.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\commons-httpclient-3.1-2d7ac352add96e4975a38ee3a0899e399e754996.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\fastjson-1.1.33.android.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="24107706636295cf296f8b68fcf466fb861dab36">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\fastjson-1.1.33.android-e64247197767e92fc47c2b5eabbbd2fae6193d92.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.github.flavienlaurent.datetimepicker\library\0.0.2\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2fc859b7abb78d29169f6a582b45cbe1f3f1a4cc">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-02a27adfa0edfcf3d305abbc8c39358e6c24509e.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.afollestad\material-dialogs\0.6.3.1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4004d6bce9c9bb95cc8116024ef186d967a01b65">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-ae11b2eb571d3161a5bf833b49b26d131ff32132.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.akexorcist\RoundCornerProgressBar\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1ef14aa1f5f68fc2dc9cfd36ccb63cd4663b2602">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-876abb4fc08e466f18faac3ab2bb52f0a91fdc53.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\juhe_sdk_v_2_2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1ae4b414b0b3ac08cafa44f06c045e76be7f7369">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\juhe_sdk_v_2_2-6ba3e0fd46dc072dd248fcc17b726d7f0f7aab81.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator.LLNEI9YCSZXKFIT\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\library-2.4.0-88597be2a623def17494909bf164154daeeeda8e.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.squareup\android-times-square\1.5.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="49a161d665861cd093b0b0ba2bfcfe791f1330ef">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-6562e6b948c9f106409f1a2945c46a96f9c59493.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0-cf2268093dfb09ed4e13ceda7d206435094ec3bd.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-4850155d3fb2d8923584e645a8777b4ca9730130.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d2173d36e782fa1d3f28e5e6281942ff95c70054.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.github.ksoichiro\android-observablescrollview\1.5.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="010ee9e87a286afcaeaed368dcf829e42d0aa2a0">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-f84a7958934407599011cd5159a4e4cd2ca80a2e.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\dom4j-1.6.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5d3ccc056b6f056dbf0dddfdf43894b9065a8f94">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\dom4j-1.6.1-cef8dbf08596074edfe31799c93e40fdfd2ba2c7.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-6c435184b518b9365425acba520311b4d1e03852.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-75f1f554789f84cfc418370518031bc34cc8e87b.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-9b0c549ce386d55848281da0308cec7dbca15f2c.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-b720dc04ef846a587cf849db4af66a8fc5900b27.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-a9d5931e09197dfb48c04f97865d30de1d9ef12e.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.4\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="77affff61296fc799ad6acd2066c1bcb8d5a7a6d">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\classes-712cf673c823c9cc576abbf306094df31f800c21.jar" />
+    </item>
+    <item
+        jar="D:\HongqiaoService\app\libs\commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="D:\HongqiaoService\app\build\intermediates\pre-dexed\debug\commons-codec-1.6-e33cf9fe669f0efd70b66a512404e4ee1780251b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--ActionBar的颜色-->
+        <item name="colorPrimary">@color/teal</item>
+        <!-- 随主题而改变的颜色（如CheckBox的颜色）-->
+        <item name="colorAccent">@color/teal</item>
+        <!--状态栏的颜色 （使用support包时似乎无效。）-->
+        <item name="colorPrimaryDark">@color/teal</item>
+    </style>
+
+
+
+
+</resources>

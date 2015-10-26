@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal"
+                android:id="@+id/tab">
+
+                <com.fyp.hongqiaoservice.utils.PagerSlidingTabStrip
+                    android:id="@+id/tabs_query"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_query"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tab" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:id="@+id/view"
+                android:background="@drawable/toolbar_dropshadow"
+                android:layout_below="@+id/tab" />
+
+        </RelativeLayout>
+
+</LinearLayout>

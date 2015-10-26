@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal">#26a69a</color><!--标题蓝色 -->
+     <color name="light_teal">#b2dfdb</color><!--标题蓝色 -->
+    <color name="deep_teal">#009688</color><!--标题蓝色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="grey">#57000000</color>
+    <color name="light_grey2">#ffc0c0c0</color>
+    <color name="light_grey">#FFEEEEEE</color>
+    <color name="deep_grey">#b2dfdb</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="drawer_text">#DE000000</color>
+</resources>

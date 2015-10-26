@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">"虹桥服务通"</string>
+
+    <string name="title_section1">动态</string>
+    <string name="title_section2">查询</string>
+    <string name="title_section3">周边</string>
+    <string name="title_section4">停车</string>
+    <string name="title_section5">我</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_flight_result">FlightResult</string>
+    <string name="title_activity_query_flight">QueryFlight</string>
+    <string name="title_activity_query_train">QueryTrain</string>
+    <string name="title_activity_train_result">TrainResult</string>
+    <string name="title_activity_train_station">TrainStation</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_flight_results">FlightResultsActivity</string>
+    <string name="title_activity_flight_airports">FlightAirportsActivity</string>
+    <string name="follow">"出发地"</string>
+    <string name="duration_prompt">"1"</string>
+    <!-- fragment_train_query -->
+    <!-- title -->
+    <string name="ti_from">"出发地"</string>
+    <string name="ti_to">"目的地"</string>
+    <string name="ti_flight_from">"起飞"</string>
+    <string name="ti_flight_to">"降落"</string>
+    <string name="ti_date">"日期"</string>
+    <string name="ti_train_type">"车型"</string>
+    <string name="ti_routes">常用路线</string>
+    <string name="ti_split">" - "</string>
+    <string name="hint_flight_no">"或请输入航班号查询"</string>
+    <string name="hint_train_no">"或请输入列车号查询"</string>
+    <!-- textView -->
+    <string name="tv_from">"上海虹桥"</string>
+    <string name="tv_to">"北京"</string>
+    <string name="tv_date">"12月30号"</string>
+    <string name="tv_week">"星期五"</string>
+    <string name="tv_train_type">"全部"</string>
+    <string name="btn_search">"查询"</string>
+
+    <!-- activity_train_results -->
+    <!-- title -->
+    <string name="ti_seat_class1">"商务座"</string>
+    <string name="ti_seat_class2">"一等座"</string>
+    <string name="ti_seat_class3">"二等座"</string>
+    <string name="ti_seat_class4">"无座"</string>
+    <!-- textView -->
+    <string name="tv_seat_class1">"1000"</string>
+    <string name="tv_seat_class2">"1000"</string>
+    <string name="tv_seat_class3">"1000"</string>
+    <string name="tv_seat_class4">"1000"</string>
+    <string name="tv_train_no">"G7146"</string>
+    <string name="tv_start_station_name">"始发站"</string>
+    <string name="tv_end_station_name">"终点站"</string>
+    <string name="tv_from_station_name">"出发站"</string>
+    <string name="tv_to_station_name">"到达站"</string>
+    <string name="tv_start_time">"19:01"</string>
+    <string name="tv_arrive_time">"21:10"</string>
+    <string name="tv_train_class_name">""</string>
+    <string name="tv_day_difference">""</string>
+    <string name="tv_lishi">"02小时20分"</string>
+
+    <!-- activity_train_stations -->
+    <!-- title -->
+    <string name="ti_recent_stations">"近期查询"</string>
+    <string name="ti_hot_stations">"热门城市"</string>
+
+    <!-- fragment_flight_query -->
+    <!-- title -->
+    <string name="ti_Dexpected">"预计起飞 "</string>
+    <string name="ti_Aexpected">"预计到达 "</string>
+    <string name="ti_Dactual">"实际起飞 "</string>
+    <string name="ti_Aactual">"实际到达 "</string>
+
+    <!-- textView -->
+    <string name="tv_name">"MU5137"</string>
+    <string name="tv_complany">"东航"</string>
+    <string name="tv_FlyTime">"104"</string>
+    <string name="tv_status">"到达"</string>
+    <string name="tv_OnTimeRate">"95.00%"</string>
+    <string name="tv_DepAirport">"虹桥机场"</string>
+    <string name="tv_ArrAirport">"首都机场"</string>
+    <string name="tv_DepTerminal">"T2"</string>
+    <string name="tv_ArrTerminal">"T2"</string>
+    <string name="tv_DepTime">"07:00"</string>
+    <string name="tv_ArrTime">"09:20"</string>
+    <string name="tv_Dexpected">"09:20"</string>
+    <string name="tv_Aexpected">"09:20"</string>
+    <string name="tv_Dactual">"21:10"</string>
+    <string name="tv_Aactual">"21:10"</string>
+    <string name="ti_food">"美食"</string>
+    <string name="ti_shopping">"购物"</string>
+    <string name="ti_hotel">" 住宿"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_train_follow_list">TrainFollowListActivity</string>
+    <string name="title_activity_flight_follow_list">FlightFollowListActivity</string>
+    <string name="title_activity_businesses_info">BusinessesInfoActivity</string>
+
+</resources>

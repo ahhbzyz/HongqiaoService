@@ -1,0 +1,255 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@color/transparent">
+
+    <android.support.v7.widget.CardView
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView_query"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:clipChildren="false">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ly_from"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/layout_selector"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@+id/ibtn_swap"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ti_from"
+                        android:id="@+id/ti_from"
+                        android:textSize="18sp"
+                        android:gravity="end" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_from"
+                        android:id="@+id/tv_from"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/teal" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/ibtn_swap"
+                    android:src="@drawable/swap_flight"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="swap"
+                    android:background="@color/transparent"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ly_to"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/layout_selector"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/ibtn_swap"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ti_to"
+                        android:id="@+id/ti_to"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="北京首都"
+                        android:id="@+id/tv_to"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/teal" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#ffd0d0d0"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_flight_no"
+                android:background="@drawable/layout_selector"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_flight_no"
+                    android:id="@+id/ti_hint_flight_no"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp" />
+
+            </RelativeLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#ffd0d0d0"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_date"
+                android:background="@drawable/layout_selector"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ti_date"
+                    android:id="@+id/ti_date"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/tv_date"
+                    android:id="@+id/tv_date"
+                    android:layout_alignParentStart="false"
+                    android:layout_toLeftOf="@+id/tv_week"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/tv_week"
+                    android:id="@+id/tv_week"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View  android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#ffd0d0d0"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/btn_search"
+                    android:id="@+id/btn_search"
+                    android:background="@color/teal"
+                    android:textColor="#ffffffff" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ti_routes"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/cardView_query"
+        android:layout_marginLeft="15dp" />
+
+    <android.support.v7.widget.CardView
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/cardView_route"
+        android:layout_below="@+id/textView6"
+        android:background="@color/white">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/lv_flight_history"
+            android:scrollbars="none"
+            android:gravity="center_horizontal"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/tv_noRecord"
+            android:textSize="16sp"
+            android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
+

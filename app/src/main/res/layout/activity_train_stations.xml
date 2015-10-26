@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.fyp.hongqiaoservice.query.train.TrainStationsActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/my_awesome_toolbar" />
+
+    <View  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:id="@+id/toolbar_dropshadow"
+        android:background="@drawable/toolbar_dropshadow"
+        android:layout_below="@+id/my_awesome_toolbar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/my_awesome_toolbar"
+        android:id="@+id/layout_all_stations"
+        android:layout_margin="16dp"
+        android:visibility="gone">
+
+        <GridView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/gv_train_stations"
+                android:numColumns="3"
+                android:gravity="center_horizontal"
+                android:scrollbars="none" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/my_awesome_toolbar"
+        android:id="@+id/layout_part_stations">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_recent"
+                android:text="@string/ti_recent_stations"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="2"
+            android:id="@+id/cardView_route"
+             >
+        <GridView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/gv_recent_stations"
+                android:gravity="center_horizontal"
+                android:scrollbars="none"
+                android:numColumns="3"
+         />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:id="@+id/tv_noRecord"
+                android:textSize="18sp"
+                android:layout_centerInParent="true" />
+</RelativeLayout>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ti_hot_stations"
+                android:id="@+id/tv_hot"
+            android:layout_marginLeft="20dp" />
+
+        <GridView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/gv_hot_stations"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

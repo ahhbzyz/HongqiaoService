@@ -1,0 +1,395 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fyp.hongqiaoservice.query.subway.SubwayQueryFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="fill_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/line1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="虹桥枢纽1路"
+                        android:id="@+id/textView4"
+                        android:textColor="@color/teal"
+                        android:textSize="20sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="票价：2元"
+                        android:id="@+id/textView19"
+                        android:layout_alignParentRight="false"
+                        android:layout_below="@+id/textView18"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="虹桥火车站 - 上海南站"
+                        android:id="@+id/textView11"
+                        android:layout_below="@+id/textView4"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="间隔：15-20分钟"
+                        android:id="@+id/textView18"
+                        android:layout_below="@+id/textView11"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView12"
+                        android:layout_below="@+id/textView19"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="8dp"
+                        android:text="往上海南站北广场方向 05:30 - 23:00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView14"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/black"
+                        android:layout_below="@+id/textView12"
+                        android:layout_marginBottom="8dp"
+                        android:text="往虹桥西交通中心方向 05:30 - 23:57" />
+
+                </RelativeLayout></android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="fill_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/line4"
+                android:layout_below="@+id/line1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+        >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="虹桥枢纽4路"
+                        android:id="@+id/textView4"
+                        android:textColor="@color/teal"
+                        android:textSize="20sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="票价：1-8元"
+                        android:id="@+id/textView19"
+                        android:layout_alignParentRight="false"
+                        android:layout_below="@+id/textView18"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="虹桥枢纽东交通中心 - 紫竹科学园区"
+                        android:id="@+id/textView11"
+                        android:layout_below="@+id/textView4"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="间隔：高峰6-10分钟, 低谷12-15分钟"
+                        android:id="@+id/textView18"
+                        android:layout_below="@+id/textView11"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView12"
+                        android:layout_below="@+id/textView19"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="8dp"
+                        android:text="往紫竹科学园区方向 06:00 - 23:55 " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView14"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/black"
+                        android:layout_below="@+id/textView12"
+                        android:layout_marginBottom="8dp"
+                        android:text="往虹桥火车站方向 06:00 - 22:30" />
+
+                </RelativeLayout></android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="fill_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/flight_line1"
+                android:layout_below="@+id/line4">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="机场一线"
+                        android:id="@+id/textView4"
+                        android:textColor="@color/teal"
+                        android:textSize="20sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="票价：30元"
+                        android:id="@+id/textView19"
+                        android:layout_alignParentRight="false"
+                        android:layout_marginTop="8dp"
+                        android:layout_below="@+id/textView11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="虹桥枢纽东交通中心 - 浦东机场T2航站楼"
+                        android:id="@+id/textView11"
+                        android:layout_below="@+id/textView4"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView12"
+                        android:layout_below="@+id/textView19"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="8dp"
+                        android:text="往浦东机场方向 06:00 - 23:00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="往虹桥东交通中心方向 07:00 - 23:00"
+                        android:id="@+id/textView14"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/black"
+                        android:layout_below="@+id/textView12"
+                        android:layout_marginBottom="8dp" />
+
+                </RelativeLayout></android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="fill_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/line316"
+                android:layout_below="@+id/flight_line1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+         >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="316"
+                        android:id="@+id/textView4"
+                        android:textColor="@color/teal"
+                        android:textSize="20sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="票价：2元"
+                        android:id="@+id/textView19"
+                        android:layout_alignParentRight="false"
+                        android:layout_below="@+id/textView18"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="虹桥枢纽东交通中心 - 延安东路中山东一路"
+                        android:id="@+id/textView11"
+                        android:layout_below="@+id/textView4"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="间隔：30-40分钟"
+                        android:id="@+id/textView18"
+                        android:layout_below="@+id/textView11"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView12"
+                        android:layout_below="@+id/textView19"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="8dp"
+                        android:text="往延安东路中山东一路方向 23:00 - 5:00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="往虹桥枢纽东交通中心方向 00:20 - 04:20"
+                        android:id="@+id/textView14"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/black"
+                        android:layout_below="@+id/textView12"
+                        android:layout_marginBottom="8dp" />
+
+                </RelativeLayout></android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="fill_parent"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/line941"
+                android:layout_below="@+id/line316">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+       >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="941"
+                        android:id="@+id/textView4"
+                        android:textColor="@color/teal"
+                        android:textSize="20sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="票价：2-6元"
+                        android:id="@+id/textView19"
+                        android:layout_alignParentRight="false"
+                        android:layout_below="@+id/textView18"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="虹桥枢纽东交通中心 - 上海火车站"
+                        android:id="@+id/textView11"
+                        android:layout_below="@+id/textView4"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="间隔：高峰8-10分钟,低谷10-12分钟"
+                        android:id="@+id/textView18"
+                        android:layout_below="@+id/textView11"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:id="@+id/textView12"
+                        android:layout_below="@+id/textView19"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="8dp"
+                        android:text="往往上海火车站南广场方向 05:30 - 23:00" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="往虹桥枢纽东交通中心方向 05:30 - 22:30"
+                        android:id="@+id/textView14"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@android:color/black"
+                        android:layout_below="@+id/textView12"
+                        android:layout_marginBottom="8dp" />
+
+                </RelativeLayout></android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
